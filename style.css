@@ -1,0 +1,60 @@
+/* The code below centers the text of all h1's on the page. */
+h1 {
+    text-align:center;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* The code below centers all images on the page and gives them a width of 400px. */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  border: 5px solid black;
+}
+.title_image{
+    display: block;
+    margin-left: 40px;
+    margin-right: auto;
+    width:600px;
+}
+/* The code below centers the text of all h2's on the page. */
+h2 {
+    text-align:center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+.title_space{
+    display:flex;
+    justify-content:space-between;
+}
+/* The code below aligns all the sections horizontally on the bottom. */
+.section-container {
+    display:flex;
+    justify-content:space-between;
+}
+.title_card{
+    font-size: 100px;
+    font-weight: bold;
+}
+.quote{
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+/* The code below a solid black border to section and puts space between them (the margin). */
+.section {
+    border: 5px black solid;
+    margin:5px;
+    padding: 10px;
+}
+body{
+    background-color: antiquewhite;
+}
+p{
+    font-weight: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
